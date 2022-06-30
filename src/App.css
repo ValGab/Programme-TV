@@ -7,6 +7,7 @@ body {
 .container {
   max-width: 580px;
   margin: 0 auto;
+  padding-bottom: 40px;
 }
 
 h1 {
@@ -49,12 +50,12 @@ main {
   padding: 50px 0 20px 0;
 }
 
-.program .left {
+.left {
   display: flex;
   align-items: center;
 }
 
-.program .right {
+.right {
   display: flex;
   flex-direction: column;
   margin-left: 15px;
@@ -86,4 +87,22 @@ main {
   color: red;
   font-size: 13px;
   font-weight: 700;
+}
+
+/* MEDIA Q */
+
+@media (max-width: 580px) {
+  .program {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .left {
+    margin: 0 auto;
+  }
+
+  .right {
+    margin-top: 20px;
+    margin-left: 40px;
+  }
 }

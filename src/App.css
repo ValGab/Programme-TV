@@ -79,11 +79,11 @@ main {
 .duration {
   font-weight: 700;
   font-size: 13px;
+  width: 80px;
 }
 
 .unseen,
 .direct {
-  margin-left: 25px;
   color: red;
   font-size: 13px;
   font-weight: 700;
